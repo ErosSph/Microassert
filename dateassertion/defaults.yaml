@@ -1,0 +1,75 @@
+schema: dateassertion-config.v1
+llm:
+  provider: openai-compatible
+  base_url: https://your-provider.example/v1
+  model: your-model-name
+  api_key_env: LLM_API_KEY
+  proxy: null
+  timeout_seconds: 180
+  max_retries: 2
+  max_tokens: 4096
+  thinking: disabled
+formal:
+  executable: jaspergold
+  license_env: CDS_LIC_FILE
+  prove_time_limit: 600s
+  coverage_time_limit: 600s
+  timeout_seconds: 3600
+  proof_scope: asserts
+  precondition_probe_time_limit: 60s
+  engine_mode: N
+  coverage_engine_mode: N
+  prove_orchestration: false
+  proofgrid_max_local_jobs: 0
+  reuse_completed_results: true
+  transient_retry_attempts: 2
+  transient_retry_delay_seconds: 2
+  vacuity_probe_time_limit: 600s
+  hierarchical_vacuity_enabled: false
+  individual_vacuity_probe_limit: 0
+design_flow:
+  graph_matching_backend: attributed_vf2
+  architecture_contracts_enabled: true
+  max_candidates_per_kind_per_module: null
+  local_recall_mode: true
+  local_candidate_selection_policy: all_grounded_exact_sva
+  rtl_property_budget: 100000
+  minimum_rtl_properties: 0
+  primitive_caps: {}
+  expand_spec_obligations: true
+  collect_stimuli_coverage: false
+  balanced_local_selection: true
+  balanced_local_budget: 128
+  balanced_local_fraction: 0.5
+  balanced_local_minimum: 20
+  balanced_composition_enabled: true
+  composition_caps: {ADJACENT: 64, INTERMEDIATE: 32, LIFECYCLE: 16}
+  llm_validation_attempts: 4
+  max_spec_context_chars: 24000
+  max_composition_context_chars: 32000
+  maximum_composition_delay: 96
+  extension_llm_limit: 1
+  region_refinement_enabled: false
+  refinement_region_limit: 48
+  refinement_max_assignments: 16
+  refinement_graph_depth: 2
+  region_property_limit: 0
+  contract_property_limit: 0
+  feedback_property_budget: 0
+  gap_priority_threshold: 1000000000000
+feedback:
+  feedback_rounds: 10
+  deduplicate_sva: false
+  region_work_budget: 6
+  contract_gap_work_budget: 8
+  local_property_work_budget: 16
+  local_work_selection: current_gap
+  composition_contexts_per_round: 64
+  composition_min_contexts_per_round: 8
+  composition_size_adaptive_budget: true
+  composition_context_contract_limit: 2
+  initial_composition_context_budget: 64
+  initial_composition_min_contexts: 16
+  composition_event_context_enabled: true
+  desired_composition_fraction: 0.30
+  strict_portfolio_policy: PASS_AND_NON_VACUOUS

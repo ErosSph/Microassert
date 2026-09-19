@@ -1,0 +1,7 @@
+# Direct dependencies validated on Python 3.10 / Linux; not a universal lockfile.
+pyslang==11.0.0
+networkx==3.4.2
+PyYAML==6.0.3
+pytest==8.4.2
+z3-solver==4.16.0.0
+build==1.6.1

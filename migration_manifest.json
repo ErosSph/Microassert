@@ -1,0 +1,716 @@
+[
+  {
+    "source": "coverage/__init__.py",
+    "destination": "dateassertion/coverage_analysis/__init__.py",
+    "original_sha256": "62414de5f5661fd4f18de589e9177737d9e4d146d70c88b4392fbc43fea7b37b",
+    "exported_sha256": "62414de5f5661fd4f18de589e9177737d9e4d146d70c88b4392fbc43fea7b37b"
+  },
+  {
+    "source": "coverage/gap_analysis.py",
+    "destination": "dateassertion/coverage_analysis/gap_analysis.py",
+    "original_sha256": "5ce0f03e15b344e278993b8568c7adf1243b7e5428f6d7d2132b9ab8390fe507",
+    "exported_sha256": "340f461f7e19648c213543a8165a6c80a7035c0459e8fc0f61bd0ff05168e1e9"
+  },
+  {
+    "source": "coverage/hard_gap.py",
+    "destination": "dateassertion/coverage_analysis/hard_gap.py",
+    "original_sha256": "e4751fa139c5ad4725398090b719aa8b5c3edb9c53595421ea214c34ba5e80ab",
+    "exported_sha256": "4025cfb4f86e9fa40a8b2fa46ebe965e4c2bab8cc25b4f828f326b0abf68f468"
+  },
+  {
+    "source": "coverage/hard_gap_planner.py",
+    "destination": "dateassertion/coverage_analysis/hard_gap_planner.py",
+    "original_sha256": "a3f141fcb6849ad3043ee878ef6af09f8fb3956f0efecc34653ac70ce1485702",
+    "exported_sha256": "a3f141fcb6849ad3043ee878ef6af09f8fb3956f0efecc34653ac70ce1485702"
+  },
+  {
+    "source": "coverage/item_classification.py",
+    "destination": "dateassertion/coverage_analysis/item_classification.py",
+    "original_sha256": "6eca5fc69affbe0bcbee46aaf3351362587fae8dadb648516beca4fd29c5a25c",
+    "exported_sha256": "b56a0a8de46a4f406e0f7354aaf9c14746982e1190e9584b884715d68493459a"
+  },
+  {
+    "source": "coverage/obligation_analysis.py",
+    "destination": "dateassertion/coverage_analysis/obligation_analysis.py",
+    "original_sha256": "15e8849ebf09af8bdbc82fbe3fde9038b4c69e69a0daaec00dea1c242060c369",
+    "exported_sha256": "b2918b1e35ee2e15b17a197b4579b3cb1ccae9f762639e5c2c4ebe6f44963705"
+  },
+  {
+    "source": "coverage/observation.py",
+    "destination": "dateassertion/coverage_analysis/observation.py",
+    "original_sha256": "676e89f875d4e55fbba31a42947f60aa097781f0382a7e59e42fc480b3a02c3d",
+    "exported_sha256": "13ac8deb7fb8a7345ae96a86a759048b5beb71c16f17cda20d11b66eb3c8fb97"
+  },
+  {
+    "source": "coverage/proof_core.py",
+    "destination": "dateassertion/coverage_analysis/proof_core.py",
+    "original_sha256": "16655b19d722a937ace8cc493421f066bd09e31fc008cb0137db37c01facb11f",
+    "exported_sha256": "16655b19d722a937ace8cc493421f066bd09e31fc008cb0137db37c01facb11f"
+  },
+  {
+    "source": "coverage/property_attribution.py",
+    "destination": "dateassertion/coverage_analysis/property_attribution.py",
+    "original_sha256": "c37d93c0e42316f484005f9a677ed21e84aeb60d9782c920067e14a2199f9f41",
+    "exported_sha256": "34839a4e4431e6ca357552778f7ca2cef15b1f4fc90340757e38f8262dac5f0d"
+  },
+  {
+    "source": "coverage/property_ranking.py",
+    "destination": "dateassertion/coverage_analysis/property_ranking.py",
+    "original_sha256": "c088a985da3a4d3397a0b3e32d90e09969abd7d2e410202006984eb9ab6006c2",
+    "exported_sha256": "d70e0c811582703833741f9e2fbc422768de0c55ba58be0886faf2824454adbd"
+  },
+  {
+    "source": "coverage/region_planner.py",
+    "destination": "dateassertion/coverage_analysis/region_planner.py",
+    "original_sha256": "f99135ccb3b9fadba7aa3a22a8322609c346769b0c29a8af6f9d6caa6fb6eb60",
+    "exported_sha256": "f99135ccb3b9fadba7aa3a22a8322609c346769b0c29a8af6f9d6caa6fb6eb60"
+  },
+  {
+    "source": "formal/__init__.py",
+    "destination": "dateassertion/formal/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "formal/jaspergold.py",
+    "destination": "dateassertion/formal/jaspergold.py",
+    "original_sha256": "38c4ee8e6493de81b2f671f22c6ae68c6fbc0c1ec769584da8e9569506293d09",
+    "exported_sha256": "bcf46a5d6b64d899cbdea270dd68c3a04c8829756125eb9813757fd2698fcf3c"
+  },
+  {
+    "source": "formal/result_parser.py",
+    "destination": "dateassertion/formal/result_parser.py",
+    "original_sha256": "7f81b933865a18096aded8958fe3aef36453f872b4029fbe61f33bb691465cfe",
+    "exported_sha256": "2b45dd8bfc3a99ffe067630082792931f9d8080ae7dd9373093da11c98b183a4"
+  },
+  {
+    "source": "formal/runner.py",
+    "destination": "dateassertion/formal/runner.py",
+    "original_sha256": "938108321839c0539436c664cf3a0224bf6d465a853ce8747db510befb676efd",
+    "exported_sha256": "91867f449a6c82302543453e3d70740f389d0ead4230e64c8c9a1289ef023143"
+  },
+  {
+    "source": "generators/__init__.py",
+    "destination": "dateassertion/generators/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "generators/sva_generator.py",
+    "destination": "dateassertion/generators/sva_generator.py",
+    "original_sha256": "53d2047528c38c6d9934e39b14917b4cd0f39b6f3eaebfb402cb5e35cc3be050",
+    "exported_sha256": "eac47e188cc833c63a11f9b84aacc06ca59809ac219c9f5b1a5bb414cddfe9de"
+  },
+  {
+    "source": "ir/__init__.py",
+    "destination": "dateassertion/ir/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "ir/schema.py",
+    "destination": "dateassertion/ir/schema.py",
+    "original_sha256": "0a1e74d1701396440656ceda9d02bc268cc039352230541eeaeb58e854bc5eba",
+    "exported_sha256": "0a1e74d1701396440656ceda9d02bc268cc039352230541eeaeb58e854bc5eba"
+  },
+  {
+    "source": "ir/validation.py",
+    "destination": "dateassertion/ir/validation.py",
+    "original_sha256": "47bb06c20add3347b6fe8307796afc3813015eff59dabcfaaf344a0d1b514b6e",
+    "exported_sha256": "47bb06c20add3347b6fe8307796afc3813015eff59dabcfaaf344a0d1b514b6e"
+  },
+  {
+    "source": "llm/__init__.py",
+    "destination": "dateassertion/llm/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "llm/client.py",
+    "destination": "dateassertion/llm/client.py",
+    "original_sha256": "a4288e035d209bce453ff9d7cf47afc2e6d9c15ee881d47081fdcb3234d1c05c",
+    "exported_sha256": "a4288e035d209bce453ff9d7cf47afc2e6d9c15ee881d47081fdcb3234d1c05c"
+  },
+  {
+    "source": "llm/coverage_gap_analyzer.py",
+    "destination": "dateassertion/llm/coverage_gap_analyzer.py",
+    "original_sha256": "2315e6031035b56073ba1e82ed5226da36e24536a67d4fc8f710f031dcaf5617",
+    "exported_sha256": "59034451686ef9f9628a7d381371e8cac5fe9014ddaa77fa304ec36ced6123f5"
+  },
+  {
+    "source": "llm/coverage_property_binder.py",
+    "destination": "dateassertion/llm/coverage_property_binder.py",
+    "original_sha256": "0177d333366d14e1a5f224cffd86aa02a322af72c24dab9a2109b0904ff71112",
+    "exported_sha256": "0f94421eb5595bd2658d1132027e1b7fcf227ff981e1aea7e4c670128bbec1da"
+  },
+  {
+    "source": "llm/hard_gap_analyzer.py",
+    "destination": "dateassertion/llm/hard_gap_analyzer.py",
+    "original_sha256": "5ac2d7acdcf31c9ceb0463f0d1ddc0601ba7508aebeb78a01baf51c859618df4",
+    "exported_sha256": "4782a823480ccfadc6c6f25a930896760b8cf3582d9dcbc084193a9c156e5112"
+  },
+  {
+    "source": "llm/microarch_analyzer.py",
+    "destination": "dateassertion/llm/microarch_analyzer.py",
+    "original_sha256": "90add24de1793f62eef5d3cbb962773908578225bc7d7f6873574f1ce09ccad0",
+    "exported_sha256": "f7de923079bf0756604d8e2e1c0c9d91ac4329634b8aa7fdbaf67007fc3ceb77"
+  },
+  {
+    "source": "llm/property_binder.py",
+    "destination": "dateassertion/llm/property_binder.py",
+    "original_sha256": "9e7da49e7603e33c2c3395c9d4fe6116064714cbe49d2ec8f3b5edf62147eb14",
+    "exported_sha256": "d186fc259e519e7465b35876c87c41dd1b5428d01b59455c77122b8e7f4ab464"
+  },
+  {
+    "source": "ontology/__init__.py",
+    "destination": "dateassertion/ontology/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "ontology/architecture_obligations.py",
+    "destination": "dateassertion/ontology/architecture_obligations.py",
+    "original_sha256": "fd633e0c551c6d11b2404107fc39919aef467440cde1aacd863d0bbdd810020e",
+    "exported_sha256": "fd633e0c551c6d11b2404107fc39919aef467440cde1aacd863d0bbdd810020e"
+  },
+  {
+    "source": "ontology/contracts.py",
+    "destination": "dateassertion/ontology/contracts.py",
+    "original_sha256": "d0a0102c809d3b928d6ee58bdad627db9ed80cf21227f653b1a693797ab13c5a",
+    "exported_sha256": "9fb7bc3f8ad175f7698d36d0f700c674337183c01033a63cf9fdc0dd00636d54"
+  },
+  {
+    "source": "ontology/object_types.py",
+    "destination": "dateassertion/ontology/object_types.py",
+    "original_sha256": "a86f6be767a006667a4dd6090a1789167f8a17202c14b7dada62e65906f4e059",
+    "exported_sha256": "0c6af80a54b420e44aaf507ac9e3cc43fddbef62537e6f45b9cb9cb8e57dd44c"
+  },
+  {
+    "source": "ontology/primitives.py",
+    "destination": "dateassertion/ontology/primitives.py",
+    "original_sha256": "eae7ed80ee90aff7a6217fbfbe14264a1448c37aa5b8921ed91d87e3a371fa9e",
+    "exported_sha256": "6bb3ba5ab223c30d7e0193a78390347728ac1ec21839c6fac8e2d71e34e97690"
+  },
+  {
+    "source": "ontology/property_families.py",
+    "destination": "dateassertion/ontology/property_families.py",
+    "original_sha256": "5360e794adce06c3d5933faa7cf536ae3e32250b5b179ab04f91cc29fe538c00",
+    "exported_sha256": "ad5fd053ae66f36a643e5ea5f8a4d3db185249b3d3a9ae396b4e033f53f6d0e7"
+  },
+  {
+    "source": "ontology/registry.py",
+    "destination": "dateassertion/ontology/registry.py",
+    "original_sha256": "a0d21537e40188e8066542bba7a5aa1616b09f3cb01167fb5b4a632dd540a999",
+    "exported_sha256": "1b3888f198ffe17fae618d7a33bc36bfe06c5d8e9e2e56a3bbe070637b75ff44"
+  },
+  {
+    "source": "pipeline/__init__.py",
+    "destination": "dateassertion/pipeline/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "pipeline/architecture_contracts.py",
+    "destination": "dateassertion/pipeline/architecture_contracts.py",
+    "original_sha256": "4932a886c6bb0e2e3d0fcc2a3965a3b156d2c40221cb34c6e947f26535dfd669",
+    "exported_sha256": "8eb06fdc70959bd64da72fdced11eb01845fc920213499d745218ec651be10fe"
+  },
+  {
+    "source": "pipeline/compositional_contracts.py",
+    "destination": "dateassertion/pipeline/compositional_contracts.py",
+    "original_sha256": "0e27acc3edde215dd935bcacd81f98437359e9c50c14fb8440914902a6e0983b",
+    "exported_sha256": "15c7d45496587012f74588ae920a3374e4b20dad53b701204f6b09dfd1e9e71a"
+  },
+  {
+    "source": "pipeline/context_packaging.py",
+    "destination": "dateassertion/pipeline/context_packaging.py",
+    "original_sha256": "eafc74295921afa042be302a96ff45b72d5aa003ebdb05dac9770dee00f08181",
+    "exported_sha256": "80e612d18cc6ca711fef7e2ad75fa75e8245a266e46e359dad9343ef708b4e3e"
+  },
+  {
+    "source": "pipeline/contract_grounding.py",
+    "destination": "dateassertion/pipeline/contract_grounding.py",
+    "original_sha256": "bea6fa55dc06ca2eb4ddb88ed77342ef98645d7fd3174b077be5411cfea04262",
+    "exported_sha256": "089e38bd5bfcf0feafb2211cca74c1ecb251dee9c767eb9c0fbd339ff22e4cb3"
+  },
+  {
+    "source": "pipeline/contract_validation.py",
+    "destination": "dateassertion/pipeline/contract_validation.py",
+    "original_sha256": "f5bd8983b643ca4c8c6794ce4f8cdbc77a3c0b32e6c19f0f780c07ef40b9fef9",
+    "exported_sha256": "60bdae79931f6913ca52276f8d6f98855982344808cd35eeda512eae2eaf1660"
+  },
+  {
+    "source": "pipeline/execution_context_paths.py",
+    "destination": "dateassertion/pipeline/execution_context_paths.py",
+    "original_sha256": "7f3fed0fab0b38c8716cf45df41bd65920358bf7ff2158a905ac0f37b29e3749",
+    "exported_sha256": "b5a7a8eefa1ce29eff3fd9f59ad229a674cfe1eabc29d607fff7f4119f148d8d"
+  },
+  {
+    "source": "pipeline/feedback_regions.py",
+    "destination": "dateassertion/pipeline/feedback_regions.py",
+    "original_sha256": "ac3968912b48444314ba12c7a31722b35fc1080e95ba2191c483416f16e066b0",
+    "exported_sha256": "dad87a9116c6ab0deb5bc7b15b668cef0e957090fbfbb631c4e81cd1193cfb7e"
+  },
+  {
+    "source": "pipeline/feedback_work_selection.py",
+    "destination": "dateassertion/pipeline/feedback_work_selection.py",
+    "original_sha256": "0eb12031fc822050a097ac5bdbcb8d27ac6980fe406218ce36f6904b2536b2ce",
+    "exported_sha256": "0eb12031fc822050a097ac5bdbcb8d27ac6980fe406218ce36f6904b2536b2ce"
+  },
+  {
+    "source": "pipeline/formal_gap_semantics.py",
+    "destination": "dateassertion/pipeline/formal_gap_semantics.py",
+    "original_sha256": "26b7371f9f7d90ce958cdd8ad89a722ee04e065250af5f1781c8d3ccfd639482",
+    "exported_sha256": "6145ce42e258372a26769ee8cb9e65beba4be755d5253b98d6e4d1b8bac38673"
+  },
+  {
+    "source": "pipeline/functional_paths.py",
+    "destination": "dateassertion/pipeline/functional_paths.py",
+    "original_sha256": "4051edb5c3edf16f4c8452d98696673e08789366ea1bcc70a0499f30a71af1e5",
+    "exported_sha256": "789a0d0868a4cb47311579db33ac487f7a9557234599148d0b0dd7506c55c590"
+  },
+  {
+    "source": "pipeline/graph_pattern_interpretation.py",
+    "destination": "dateassertion/pipeline/graph_pattern_interpretation.py",
+    "original_sha256": "885c84c503986c06250fb0d67f4d2c75b9ec3aee1d3f2c72798ba9393fe7f989",
+    "exported_sha256": "bf2ae5e9734fc3db5da926a0b2b2d0bcf39ef4ae6f72871681cde941037032e9"
+  },
+  {
+    "source": "pipeline/indexed_storage_contracts.py",
+    "destination": "dateassertion/pipeline/indexed_storage_contracts.py",
+    "original_sha256": "9e7b55db6855e15f149e11c55f8ce0e11283344416692fa94c1867e6e8c34b60",
+    "exported_sha256": "09f9623b378e3aeffebe26949323d4a64b0731f445d9b23a526543f5fbf239b5"
+  },
+  {
+    "source": "pipeline/initial_property_planner.py",
+    "destination": "dateassertion/pipeline/initial_property_planner.py",
+    "original_sha256": "40a7e2b72ec44e963b797602896bd1e60f899047a6cf249499cf9682ac58983e",
+    "exported_sha256": "0c982fe4bb8afa116473765bfcd44afece6c33f6961d07d1c944ce4ef16b0bff"
+  },
+  {
+    "source": "pipeline/local_contract_composition.py",
+    "destination": "dateassertion/pipeline/local_contract_composition.py",
+    "original_sha256": "79b47dbfbb9c606cd84507119835409ec6135a3e911d6b43598ce8c6dea8338a",
+    "exported_sha256": "971559251b6b3da75ade401285fc4012858ec152be62fba7edda29cde00d1292"
+  },
+  {
+    "source": "pipeline/local_region_assertions.py",
+    "destination": "dateassertion/pipeline/local_region_assertions.py",
+    "original_sha256": "d4b74b88b23306c242964d748e249976e4e7bddb1fc555b5d7761336b447de79",
+    "exported_sha256": "d3b4d36227e027a3523b4d38855136446e50bcd68e6de273cb87f55b400dc7ea"
+  },
+  {
+    "source": "pipeline/microarchitecture_constraints.py",
+    "destination": "dateassertion/pipeline/microarchitecture_constraints.py",
+    "original_sha256": "105c318d5d31553843a7f7c3184d4598a99e0cd1c38937ff7caab45bb7915df5",
+    "exported_sha256": "79072899056c74e9d528dd8540b2fe9e84301b21f689f81261c803fe41730a30"
+  },
+  {
+    "source": "pipeline/obligation_aware_planner.py",
+    "destination": "dateassertion/pipeline/obligation_aware_planner.py",
+    "original_sha256": "03270764ea2dcd327691c795f0ae7ae86673b3057ff15752147f0dd333fd089a",
+    "exported_sha256": "0a9c43b41c84fd9f3cbacfee0bd65a89ac9981c7c933426deb5665a0a13b5ef4"
+  },
+  {
+    "source": "pipeline/path_semantics.py",
+    "destination": "dateassertion/pipeline/path_semantics.py",
+    "original_sha256": "97cd7a7e7263afe7a6ba23e4bfe90aa983c0405e4a6e955d56f62235c1abe47f",
+    "exported_sha256": "ff411898039dc6ef2e8f27da98ab3f9a718cf48a58d8cd660ea00cd5d354d4fa"
+  },
+  {
+    "source": "pipeline/profile.py",
+    "destination": "dateassertion/pipeline/profile.py",
+    "original_sha256": "3d9cdb9a6758c905356641c88e19ef30aff72062131ee37ecd7ad11629adeec3",
+    "exported_sha256": "17bda77744f5d5cc87b799499b55d77edb6c1d1c9cec9d68a0ad06dac370e399"
+  },
+  {
+    "source": "pipeline/property_portfolio_planner.py",
+    "destination": "dateassertion/pipeline/property_portfolio_planner.py",
+    "original_sha256": "06a75054abc464e346be2f63431a7a288521aa87c5866573f228738a149c9d78",
+    "exported_sha256": "d7815826d5408f1e5517b7f7085636522992ff39eb97ab2e024844b3b83998ba"
+  },
+  {
+    "source": "pipeline/requirement12_balance.py",
+    "destination": "dateassertion/pipeline/portfolio_balance.py",
+    "original_sha256": "95fd1c573ef86219b5c605c2125928ebf0c1f3a527b9e5b3cd854c1692ea4061",
+    "exported_sha256": "34a8567b31a753bf02408fc4ccdb4433281e5e465e2606b2ae192664f057ec5d"
+  },
+  {
+    "source": "pipeline/requirement12_composition.py",
+    "destination": "dateassertion/pipeline/composition_expansion.py",
+    "original_sha256": "32d0bcb30ef68115d233b3be794ebba342fcb2b996d466e8d3f21755abd8c76b",
+    "exported_sha256": "3a755eb6dc667ae9a162ea24a31725df9851f50504c63480f24aea4b6f4fe9fd"
+  },
+  {
+    "source": "pipeline/requirement12_feedback.py",
+    "destination": "dateassertion/pipeline/feedback_loop.py",
+    "original_sha256": "d2924f76e0259626e8b1656f887c275900a3296e78deef52e030aa6ece3be71c",
+    "exported_sha256": "80a326cbf481a58aad59cd3a6b92aedea36cdcf2f7c6ce839181517c6dffd749"
+  },
+  {
+    "source": "pipeline/requirement12_measurements.py",
+    "destination": "dateassertion/pipeline/checker_coverage.py",
+    "original_sha256": "ab6a3c4393315c67030c90a45cf833438deed80ee907fdfea940bd1e22fb9543",
+    "exported_sha256": "82d7e919ebcc0f31e6c0e92aa52d1ebe511e4b18ef0a62438932df137d04a488"
+  },
+  {
+    "source": "pipeline/requirement14_measurements.py",
+    "destination": "dateassertion/pipeline/native_measurements.py",
+    "original_sha256": "fb6f1933afdb2bad1c89b1b94aa89d99bcc555ecc04e0e28cc5734be6c4f52b7",
+    "exported_sha256": "02f516a5406bb41ae7051ca5bb02b3d1df4d94c96f6e64e86ec9f30a36426c72"
+  },
+  {
+    "source": "pipeline/requirement8.py",
+    "destination": "dateassertion/pipeline/region_flow.py",
+    "original_sha256": "5a9f919b91605876022af0fccab328b4b9e41a0ff36a35c672d0eb72e677ee6d",
+    "exported_sha256": "cee19b373b164c0148514065e64ce8621a6524265fe95bf12186617279d44339"
+  },
+  {
+    "source": "pipeline/requirement8_10.py",
+    "destination": "dateassertion/pipeline/design_flow.py",
+    "original_sha256": "8d2ed486ff341377688c308ecb5be5c86dde83e930893ddb3f88c89db9a98214",
+    "exported_sha256": "949fd8036ac5f80670a68ef787d664914585a62b471f185ff94595064497971c"
+  },
+  {
+    "source": "pipeline/requirement8_7.py",
+    "destination": "dateassertion/pipeline/spec_extraction.py",
+    "original_sha256": "91959fb3b49d18d0f8c1046ca74051d0a07afc0829ebc574630f799c79cf6da1",
+    "exported_sha256": "d4be7fca209e172fcefcc742028474aee12d0223e2bb0e457056e27c17f2ca7d"
+  },
+  {
+    "source": "pipeline/requirement8_8.py",
+    "destination": "dateassertion/pipeline/spec_composition.py",
+    "original_sha256": "292e9a8ad89eccfdb02ae7be36b9d86e7b5624d35247fcee0760a61e2baf58c0",
+    "exported_sha256": "b07e302b9a6cd8fd67ff43ffb07b6a28962062ac4d24b1ddc00b6d1d25ac77bf"
+  },
+  {
+    "source": "pipeline/requirement8_9.py",
+    "destination": "dateassertion/pipeline/gap_interpretation.py",
+    "original_sha256": "5c0f7b30487f69c188704395a48374db3022858f1797887fa2b01174f39e350f",
+    "exported_sha256": "bf5dc8c4b83f8f6808508042912ae2530c53454af9963bae7c090b06804a46b0"
+  },
+  {
+    "source": "pipeline/requirement8_contracts.py",
+    "destination": "dateassertion/pipeline/region_contracts.py",
+    "original_sha256": "05ede8660e290dcc94955c7b6d8ce85e65fb21dc3d17c9a1df6c2ad9f3d22f9f",
+    "exported_sha256": "977fb086e4b0bcc8c29856159fe68d8ee5fb708a4506d9a693b016c3b29227ff"
+  },
+  {
+    "source": "pipeline/semantic_slicing.py",
+    "destination": "dateassertion/pipeline/semantic_slicing.py",
+    "original_sha256": "f3bfe4c96488fd16116b0247b13bfe69b1b99dea82d3d0adf91abad59e322cbd",
+    "exported_sha256": "e426b63f43176c55c23edf839bd960fc127f31967b20c06e5074fe8d8752c4d6"
+  },
+  {
+    "source": "pipeline/verification_obligations.py",
+    "destination": "dateassertion/pipeline/verification_obligations.py",
+    "original_sha256": "2dc0a4611bd3c2b25eb4099dd0e9d64cc794a243fe94519f190f8dff9c04ff48",
+    "exported_sha256": "6b3f12302fa115a813073c08af506cc21759725a7889d4af581663f7b48821c5"
+  },
+  {
+    "source": "rtl_frontend/__init__.py",
+    "destination": "dateassertion/rtl_frontend/__init__.py",
+    "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "exported_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "rtl_frontend/composite_motifs.py",
+    "destination": "dateassertion/rtl_frontend/composite_motifs.py",
+    "original_sha256": "5fb50b8c17d05c8f0f84f32cb2e29806eaeca428c37b934cca4113e63d95e365",
+    "exported_sha256": "5e66cea0f009dc39ee71f5a8ccf55ca78bc824913843f41992d3c7f144828150"
+  },
+  {
+    "source": "rtl_frontend/graph_motif_library.py",
+    "destination": "dateassertion/rtl_frontend/graph_motif_library.py",
+    "original_sha256": "c35a01de108d3ab31547990b321cd0c873ebc4c20bba6616423d398089b1b2fa",
+    "exported_sha256": "c35a01de108d3ab31547990b321cd0c873ebc4c20bba6616423d398089b1b2fa"
+  },
+  {
+    "source": "rtl_frontend/graph_motif_matching.py",
+    "destination": "dateassertion/rtl_frontend/graph_motif_matching.py",
+    "original_sha256": "bda7472b0f1823fe3944ac0e1a2284fea41d7b557a03ec58b732cd5a64d5bccf",
+    "exported_sha256": "213a72e5ff892fc7a8611381685a0cf9cb77e4a828c4e7303b05d4854d883063"
+  },
+  {
+    "source": "rtl_frontend/graph_patterns.py",
+    "destination": "dateassertion/rtl_frontend/graph_patterns.py",
+    "original_sha256": "21e87e325e76bea3e58a3049b95beaf865ef4494c6d1ab28155b08c8761170b4",
+    "exported_sha256": "268267deb772b6fee61129817b183ee727310cb08b96efd136154cb86e9bb3e8"
+  },
+  {
+    "source": "rtl_frontend/hierarchical_design.py",
+    "destination": "dateassertion/rtl_frontend/hierarchical_design.py",
+    "original_sha256": "9a6078ec3f638c2ca351fbf29490db2fa4e577affe4e541ecc08bda425fd99b1",
+    "exported_sha256": "4638bfa5b94bb23f891658b6d35bc27a155e5ab72436d65104f485b650c088a5"
+  },
+  {
+    "source": "rtl_frontend/hierarchy.py",
+    "destination": "dateassertion/rtl_frontend/hierarchy.py",
+    "original_sha256": "53874fedfbec18c9706f58f0d405c5cd67597a22a8a759a87811f3228bcbcb1b",
+    "exported_sha256": "53874fedfbec18c9706f58f0d405c5cd67597a22a8a759a87811f3228bcbcb1b"
+  },
+  {
+    "source": "rtl_frontend/invariant_patterns.py",
+    "destination": "dateassertion/rtl_frontend/invariant_patterns.py",
+    "original_sha256": "9c00dfa2817be8a1fbca71a1641601f280bd10e22cbd381ddca85dc32df2266e",
+    "exported_sha256": "641ae8a7025c904fd52cdd42220971ec258615faa595f0910affbe67275807af"
+  },
+  {
+    "source": "rtl_frontend/parser.py",
+    "destination": "dateassertion/rtl_frontend/parser.py",
+    "original_sha256": "a04451c056c135fc37ab373d6c2ad0d66772a80a6aa31677e375ad4ce323fda7",
+    "exported_sha256": "91b425f810b970ee998a973e2f9b70c3ae81eb5b73de45e8d482e41587f5e65c"
+  },
+  {
+    "source": "rtl_frontend/region_candidates.py",
+    "destination": "dateassertion/rtl_frontend/region_candidates.py",
+    "original_sha256": "63d9b88f788d54e7d5c1623605b3b3ba52e60afc78080a5822e4217805724d8d",
+    "exported_sha256": "82b343d0b90a72e1ccaef23ed6623eba77088a0cfbab073c31cabbe5da56d50f"
+  },
+  {
+    "source": "rtl_frontend/semantic_graph.py",
+    "destination": "dateassertion/rtl_frontend/semantic_graph.py",
+    "original_sha256": "a308f5bddeb288bbc3b3809143ca6d2fd172e283fd8050abf21e0c3c636462c4",
+    "exported_sha256": "52daa1b98dff3a6f2f6c53a49ed4602b4fa63258cc92f9aeb4540dff4aa65fd6"
+  },
+  {
+    "source": "rtl_frontend/signal_analysis.py",
+    "destination": "dateassertion/rtl_frontend/signal_analysis.py",
+    "original_sha256": "e1f80404b4009ac3e97fbdd88baff868df67099bd73abc06bc692063b11f3998",
+    "exported_sha256": "e1f80404b4009ac3e97fbdd88baff868df67099bd73abc06bc692063b11f3998"
+  },
+  {
+    "source": "llm/prompts/functional_path_meaning.txt",
+    "destination": "dateassertion/llm/prompts/functional_path_meaning.txt",
+    "original_sha256": "3859c1d0112cabe95f18f513433557123dcd5d7f2c9f95243d6752b7a3126a4b",
+    "exported_sha256": "3859c1d0112cabe95f18f513433557123dcd5d7f2c9f95243d6752b7a3126a4b"
+  },
+  {
+    "source": "llm/prompts/requirement8_7_extension_region.txt",
+    "destination": "dateassertion/llm/prompts/extension_regions.txt",
+    "original_sha256": "4e75fe60538568a6a918c42f9170395636490073aa5f1869990e0e50144c1608",
+    "exported_sha256": "4e75fe60538568a6a918c42f9170395636490073aa5f1869990e0e50144c1608"
+  },
+  {
+    "source": "llm/prompts/contract_refinement.txt",
+    "destination": "dateassertion/llm/prompts/contract_refinement.txt",
+    "original_sha256": "c019705e05d44835980c8d3fd9172fdbab69bd3b62af99e0bb1ef2eeca70a59f",
+    "exported_sha256": "c019705e05d44835980c8d3fd9172fdbab69bd3b62af99e0bb1ef2eeca70a59f"
+  },
+  {
+    "source": "llm/prompts/property_gap_analysis.txt",
+    "destination": "dateassertion/llm/prompts/property_gap_analysis.txt",
+    "original_sha256": "45ba9f4b6d17993a1f3e1d1448576f3c3f3f2670299d5c8c7e884e4974e49513",
+    "exported_sha256": "45ba9f4b6d17993a1f3e1d1448576f3c3f3f2670299d5c8c7e884e4974e49513"
+  },
+  {
+    "source": "llm/prompts/deterministic_ambiguity.txt",
+    "destination": "dateassertion/llm/prompts/deterministic_ambiguity.txt",
+    "original_sha256": "bd05746d9e24f12e40879a722bb64ae51fa510e9dfeb92bb96175d68e9afb702",
+    "exported_sha256": "bd05746d9e24f12e40879a722bb64ae51fa510e9dfeb92bb96175d68e9afb702"
+  },
+  {
+    "source": "llm/prompts/region_classification.txt",
+    "destination": "dateassertion/llm/prompts/region_classification.txt",
+    "original_sha256": "dabbf297b58ddfe56b6f098932e79e520d3df3c4e7a2f4af37380ee083c3f86a",
+    "exported_sha256": "dabbf297b58ddfe56b6f098932e79e520d3df3c4e7a2f4af37380ee083c3f86a"
+  },
+  {
+    "source": "llm/prompts/requirement8_8_composition.txt",
+    "destination": "dateassertion/llm/prompts/composition_constraints.txt",
+    "original_sha256": "167c620d6e924ac35b1d7dee844d71eb51fe85bb9c601f457dcc27049098c5de",
+    "exported_sha256": "167c620d6e924ac35b1d7dee844d71eb51fe85bb9c601f457dcc27049098c5de"
+  },
+  {
+    "source": "llm/prompts/graph_pattern_ambiguity.txt",
+    "destination": "dateassertion/llm/prompts/graph_pattern_ambiguity.txt",
+    "original_sha256": "03954b0d09e2df6759ec38dfc71641f67eda25cd357a8bd7a4f6fa626fe13a76",
+    "exported_sha256": "03954b0d09e2df6759ec38dfc71641f67eda25cd357a8bd7a4f6fa626fe13a76"
+  },
+  {
+    "source": "llm/prompts/execution_context_ambiguity.txt",
+    "destination": "dateassertion/llm/prompts/execution_context_ambiguity.txt",
+    "original_sha256": "e775309fa82d802fe1d2238d2ac728262741c8971227663a32d733a4ff3e786f",
+    "exported_sha256": "e775309fa82d802fe1d2238d2ac728262741c8971227663a32d733a4ff3e786f"
+  },
+  {
+    "source": "llm/prompts/requirement8_9_extension_interpretation.txt",
+    "destination": "dateassertion/llm/prompts/gap_interpretation.txt",
+    "original_sha256": "fbcbd184a72ea8dac9ec9399f429c809ec86ec5593584eb1a7a97da3ef825d53",
+    "exported_sha256": "fbcbd184a72ea8dac9ec9399f429c809ec86ec5593584eb1a7a97da3ef825d53"
+  },
+  {
+    "source": "llm/prompts/hard_gap_analysis.txt",
+    "destination": "dateassertion/llm/prompts/hard_gap_analysis.txt",
+    "original_sha256": "77f5f61242c00fbd8b21867e2e293a778a08550e148cf379b2094eef98c17429",
+    "exported_sha256": "77f5f61242c00fbd8b21867e2e293a778a08550e148cf379b2094eef98c17429"
+  },
+  {
+    "source": "llm/prompts/requirement8_region.txt",
+    "destination": "dateassertion/llm/prompts/region_contracts.txt",
+    "original_sha256": "460d8cf3127722489d6ba47d7e50e587ef7cce0635ed17e6400753475e31f0c0",
+    "exported_sha256": "460d8cf3127722489d6ba47d7e50e587ef7cce0635ed17e6400753475e31f0c0"
+  },
+  {
+    "source": "llm/prompts/requirement8_7_spec_extraction.txt",
+    "destination": "dateassertion/llm/prompts/spec_behaviors.txt",
+    "original_sha256": "27732ddaa2e0dcd4c1e040a1459499b887cad927afdc448c2b251fa6ed5f1e69",
+    "exported_sha256": "27732ddaa2e0dcd4c1e040a1459499b887cad927afdc448c2b251fa6ed5f1e69"
+  },
+  {
+    "source": "ontology/extension_registry.json",
+    "destination": "dateassertion/ontology/extension_registry.json",
+    "original_sha256": "e0cae770da42376554efb28f3edadf04ca3b605c81dbefb3098e08f069296eb6",
+    "exported_sha256": "e0cae770da42376554efb28f3edadf04ca3b605c81dbefb3098e08f069296eb6"
+  },
+  {
+    "source": "ontology/core_ontology.json",
+    "destination": "dateassertion/ontology/core_ontology.json",
+    "original_sha256": "2845d0741b6b902aa60df779ee1ffdd1011bce113f4232b1e364ea454418da52",
+    "exported_sha256": "2845d0741b6b902aa60df779ee1ffdd1011bce113f4232b1e364ea454418da52"
+  },
+  {
+    "source": "scripts/native_mutation_8h/report_effective.tcl",
+    "destination": "dateassertion/formal/report_effective.tcl",
+    "original_sha256": "a5a73dafa81ee68e4e78e1fedb525ba0ed4e367e162b6959ceeca127b7c7bdaf",
+    "exported_sha256": "a5a73dafa81ee68e4e78e1fedb525ba0ed4e367e162b6959ceeca127b7c7bdaf"
+  },
+  {
+    "source": "experiments/region_sva_kb/library.py",
+    "destination": "dateassertion/experimental/region_templates.py",
+    "original_sha256": "06d6281821de8845bb6447b6ce723f32ddbbc778ab5d248d1b547bdaacaa41e1",
+    "exported_sha256": "6eaf9bed952d17e1f97dafdadc109164b000847391eccdf26f4e46e025c2550e"
+  },
+  {
+    "source": "tests/test_graph_motif_matching.py",
+    "destination": "tests/test_graph_motif_matching.py",
+    "original_sha256": "7d06b471d9141275052e2051070f75316bcfa434efa56057cbd90f2e91c5734b",
+    "exported_sha256": "58ee22a3103080724e71ce49b727acf3a0e0e848767ece4cb4b6557800c52125"
+  },
+  {
+    "source": "tests/test_graph_motif_v2.py",
+    "destination": "tests/test_graph_motif_v2.py",
+    "original_sha256": "f9fb3ea1eb91ffbc88b454b6fddea9b54bd07167ac16606e48bdde085b5f473c",
+    "exported_sha256": "d43f08449393d9f80d547b6f1bf6a377174a6f6b0c65635784327ada1f9e6b72"
+  },
+  {
+    "source": "tests/test_graph_motif_v3.py",
+    "destination": "tests/test_graph_motif_v3.py",
+    "original_sha256": "8c95108f769f764c4d9aa2fdb23031d23fc53627330e991d9b51710997a7475d",
+    "exported_sha256": "501382c715b248dd2edc6eb0860cc8a0cb0f5c5f3d09f2f0e1a21a707a4a7af5"
+  },
+  {
+    "source": "tests/test_graph_motif_v4.py",
+    "destination": "tests/test_graph_motif_v4.py",
+    "original_sha256": "51534eed40347e615c1170f1fba789ef9192b8d6c23a75b226a934989856f25e",
+    "exported_sha256": "2d514df09aa5e10831884d88eea4c7fe29a0449ac6f5daed7081922f2891f9ca"
+  },
+  {
+    "source": "tests/test_llm_client.py",
+    "destination": "tests/test_llm_client.py",
+    "original_sha256": "c58d1369a4cdde27daaa80acf14732e52051d3eb7cecdd2025aa95887622be10",
+    "exported_sha256": "1831a78ff75f9cec148078d2e98e89cf4c5a3452b181af4cb3ab6337de6a56b3"
+  },
+  {
+    "source": "tests/test_requirement12_feedback.py",
+    "destination": "tests/test_feedback_loop.py",
+    "original_sha256": "bef536a3e90991c4ac31cac4506c179de3102b997550b97a028f1d4b33d7f0c6",
+    "exported_sha256": "4c2bbe9325f1adbfd0d36a506073cb52b8365173c949c8a65be0da25ea2a72e7"
+  },
+  {
+    "source": "tests/test_requirement12_composition.py",
+    "destination": "tests/test_composition_expansion.py",
+    "original_sha256": "db2c080764fa66b51166f1dac17d79eff421278ac0c6b9c93f82c702daddaafe",
+    "exported_sha256": "1dd8d93eca0ba3e00aa853edbbbd5972a8a6c63f461aa767ceb512dcc51e2290"
+  },
+  {
+    "source": "tests/test_requirement12_balance.py",
+    "destination": "tests/test_portfolio_balance.py",
+    "original_sha256": "b9eb51cd550de8c4d91794e616aa35e1332b0937186f13dbb78c09a45854b467",
+    "exported_sha256": "c8d4e63b8f7231ee1daacc5a811194dd7d8ba49c0cbbad71ca7c481707131055"
+  },
+  {
+    "source": "tests/test_requirement14_measurements.py",
+    "destination": "tests/test_native_measurements.py",
+    "original_sha256": "edfc5c59d2a56f4ef6a60da5a2fb48d919a8278f33618894b8ed8583c4b77652",
+    "exported_sha256": "e32ec696c44a925d57ca742be35c209316ea93628c113989cec586be734936b1"
+  },
+  {
+    "source": "tests/test_requirement7.py",
+    "destination": "tests/test_grounding_flow.py",
+    "original_sha256": "c45008ebdfdbbd8f53f7701d76354c2a58314f7a7c1cde40e1dab74a1b249128",
+    "exported_sha256": "d8d29144f69b1232cd50af5d3315d91ee980f66e2da86c870e0a94a079c56c3d"
+  },
+  {
+    "source": "tests/test_formal_gap_semantics_mapping.py",
+    "destination": "tests/test_formal_gap_semantics_mapping.py",
+    "original_sha256": "34f1e8620e323dea325d8a24caf41958e1e2c06cd66eb842ae16109a6e51e096",
+    "exported_sha256": "5730ca00745f3df51d4aa5f863e97e3d0862c9d69f5805c275d4d03a36eff46d"
+  },
+  {
+    "source": "tests/test_feedback_work_selection.py",
+    "destination": "tests/test_feedback_work_selection.py",
+    "original_sha256": "0c5e94709d61d2317d1b53f39f61f28d6c5914dccdeff9a5b01c465e1e644de1",
+    "exported_sha256": "e9149959378e942b4048fc0145aa6cba03fa77e16e7370db693322a06da955f2"
+  },
+  {
+    "source": "tests/test_feedback_reset_guard_filter.py",
+    "destination": "tests/test_feedback_reset_guard_filter.py",
+    "original_sha256": "d077d42564e629888fab5790a240e44fadea93658ce695aac865f675a097513a",
+    "exported_sha256": "a587762c8b4baf9f784e8cae0bb3dfb5913b4b420b78a73fc610cbd23f23fa24"
+  },
+  {
+    "source": "tests/test_jasper_unlimited.py",
+    "destination": "tests/test_jasper_unlimited.py",
+    "original_sha256": "213ac4dec5c61cfcc822e42ec111a71f49125ece9ad66db8ae1419e7b925238a",
+    "exported_sha256": "569f4c256704c653ec07414728d8fb3e73e90501bcc3a2209b9308674c938be2"
+  },
+  {
+    "source": "tests/fixtures_graph_motifs.sv",
+    "destination": "tests/fixtures_graph_motifs.sv",
+    "original_sha256": "64f0e965a274033b767d7e6c0e2ff69f90a64052ba847372c6cc5227d2d88224",
+    "exported_sha256": "64f0e965a274033b767d7e6c0e2ff69f90a64052ba847372c6cc5227d2d88224"
+  },
+  {
+    "source": "tests/fixtures_graph_motifs_v3.sv",
+    "destination": "tests/fixtures_graph_motifs_v3.sv",
+    "original_sha256": "7b17e0122f694d951294c04007a8434629f22704f416c7a6994f9d06dcdf22cc",
+    "exported_sha256": "7b17e0122f694d951294c04007a8434629f22704f416c7a6994f9d06dcdf22cc"
+  },
+  {
+    "source": "tests/fixtures_graph_motifs_v4.sv",
+    "destination": "tests/fixtures_graph_motifs_v4.sv",
+    "original_sha256": "65307033629143002701f65b6eb5180c33ead2b61149e2d7e1705acb1b594c97",
+    "exported_sha256": "65307033629143002701f65b6eb5180c33ead2b61149e2d7e1705acb1b594c97"
+  },
+  {
+    "source": "tests/fixtures_four_types.sv",
+    "destination": "tests/fixtures_four_types.sv",
+    "original_sha256": "77216e917e3990c1787e2b1a99919c1fe34a9f4b755c3a944cb487a4054dd16d",
+    "exported_sha256": "77216e917e3990c1787e2b1a99919c1fe34a9f4b755c3a944cb487a4054dd16d"
+  },
+  {
+    "source": "tests/fixtures_requirement8_4.sv",
+    "destination": "tests/fixtures_region_matching.sv",
+    "original_sha256": "ed2b0d8333053a966525c924ee2e885317248b74bfbc1875b2a21d56d20225de",
+    "exported_sha256": "ed2b0d8333053a966525c924ee2e885317248b74bfbc1875b2a21d56d20225de"
+  },
+  {
+    "source": "tests/fixtures_requirement8.sv",
+    "destination": "tests/fixtures_regions.sv",
+    "original_sha256": "f2b898bad02ef55ba0dfdda89a5275e402d89dbbdad004188e16d3c80ea22491",
+    "exported_sha256": "f2b898bad02ef55ba0dfdda89a5275e402d89dbbdad004188e16d3c80ea22491"
+  },
+  {
+    "source": "tests/fixtures_graph_motifs_v2.sv",
+    "destination": "tests/fixtures_graph_motifs_v2.sv",
+    "original_sha256": "70a4888cf4fa9cc8d6d58bf2cd19ee03a2139d76bd0f80f701c76e23f4c8122c",
+    "exported_sha256": "70a4888cf4fa9cc8d6d58bf2cd19ee03a2139d76bd0f80f701c76e23f4c8122c"
+  },
+  {
+    "source": "tests/fixtures_requirement7.sv",
+    "destination": "tests/fixtures_grounding.sv",
+    "original_sha256": "4fd7f237b1b30918c16cb4ff3a64973788fef59ef4085d60991d55474c2a8f51",
+    "exported_sha256": "fcceac83b022f21dca8e6f23bd6f624cb51c0641073d12f7b70bbc9aaac43094"
+  }
+]

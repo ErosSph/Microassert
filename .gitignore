@@ -1,0 +1,29 @@
+# Credentials, private machine configuration and data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.lic
+license.dat
+configs/local*.yaml
+benchmarks/
+outputs/
+artifacts/
+*.log
+# Python/build/editor products
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+.DS_Store
+.idea/
+.vscode/
+# Jasper databases
+jgproject*/
+*.vcd
+*.fsdb
+*.wlf

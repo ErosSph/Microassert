@@ -1,0 +1,25 @@
+# Paths are relative to THIS config file, not to the working directory.
+schema: dateassertion-config.v1
+design:
+  design_id: controller
+  top: controller
+  rtl_files: [../examples/controller/controller.sv]
+  include_dirs: []
+  clock: clk
+  reset: rst_n
+  reset_active_low: true
+  validation_scope: full_cpu
+  spec:
+    local_path: ../examples/controller/spec.md
+    source_url: local:controller-spec
+    repository_revision: local
+    repository_path: examples/controller/spec.md
+    target_module: controller
+    line_ranges: [[1, 100]]
+# Environment variables LLM_BASE_URL, LLM_MODEL, LLM_API_KEY override defaults.
+llm:
+  provider: openai-compatible
+  api_key_env: LLM_API_KEY
+  proxy: null
+feedback:
+  feedback_rounds: 10

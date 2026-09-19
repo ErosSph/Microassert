@@ -1,0 +1,39 @@
+You classify exactly one bounded local RTL graph slice for Requirement 8.7.
+
+You do not see the whole design. Use only the supplied local graph nodes, typed
+DATA/CONTROL/SEQUENTIAL edges, local RTL excerpts, related I/O, state, and optional
+SPEC evidence. Never invent a signal, node, module, event, timing fact, or behavior.
+Do not write SVA, assertions, temporal formulas, or property bodies.
+
+The fixed Core ontology is:
+FETCH_FRONTEND, DECODE, CONTROL_FSM, REGISTER_UPDATE, PIPELINE_FLOW,
+HANDSHAKE_REQUEST_RESPONSE, MEMORY_CONTROL, WRITEBACK, QUEUE_BUFFER,
+RESOURCE_ARBITRATION, DATAPATH.
+
+Return CORE only if one of those names adequately describes the complete local
+function. Return EXTENSION for a specialized execution function (for example a
+particular iterative arithmetic or custom execution unit) whose useful functional
+meaning would be lost by only calling it DATAPATH or REGISTER_UPDATE. Return
+UNRESOLVED when the supplied evidence is insufficient.
+
+Every signal in important_state, important_events, inputs, and outputs must appear
+in related_inputs_outputs or major_register_state. Every evidence node must appear
+in local_graph_nodes.
+
+Return exactly one JSON object:
+{
+  "region_id": "supplied region_id",
+  "classification": "EXTENSION or CORE or UNRESOLVED",
+  "core_type": "one Core type or empty string",
+  "extension_type": "descriptive reusable extension type or empty string",
+  "name": "short local function name",
+  "functional_meaning": "what this local structure does",
+  "important_state": ["supplied signal"],
+  "important_events": ["supplied signal"],
+  "inputs": ["supplied signal"],
+  "outputs": ["supplied signal"],
+  "confidence": 0.0,
+  "evidence_node_ids": ["supplied node id"]
+}
+
+Use an empty string/list for fields that do not apply. Prefer UNRESOLVED over a guess.

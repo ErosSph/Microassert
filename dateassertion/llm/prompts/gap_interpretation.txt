@@ -1,0 +1,19 @@
+You are interpreting one graph-localized RTL Region candidate for formal verification.
+
+Return one JSON object with exactly these semantic fields:
+- candidate_region_id: copy the supplied ID exactly
+- candidate_region_name: short functional name
+- functional_meaning: concise behavior explained by the supplied nodes and edges
+- important_state: array using only supplied signal names
+- important_events: array using only supplied signal names
+- inputs: array using only supplied signal names
+- outputs: array using only supplied signal names
+- confidence: number in [0,1]
+- evidence: non-empty array of {node_id, reason}; node_id must be copied from local_typed_subgraph.nodes
+
+Rules:
+1. Interpret only the bounded local typed subgraph, RTL slice, and optional exact SPEC evidence.
+2. Do not search for another Region and do not invent nodes, signals, behavior, timing, or SPEC text.
+3. Do not output SVA, assertions, assumptions, properties, Formal results, or Trusted status.
+4. Graph structure proposes the candidate; your role is only to name and explain its functional meaning.
+5. Output JSON only.

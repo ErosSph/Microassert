@@ -1,0 +1,48 @@
+You are matching one deterministic RTL region against a fixed core verification ontology, while preserving genuinely new behavior as a structured extension candidate.
+
+Core object types: FSM, REGISTER_UPDATE, DATAPATH, PIPELINE, DECODE, HANDSHAKE, REQUEST_RESPONSE, RESOURCE.
+Return exactly one JSON object and no markdown. Never invent a signal: every signal value and every identifier used in an expression must come from AVAILABLE_SIGNALS. UNKNOWN is valid when evidence is weak.
+Omit unsupported semantic roles or use JSON null; never return strings such as "None", "N/A", or "unknown" as signal names.
+
+For a core match return:
+{"classification":"CORE_OBJECT","region_id":"...","object_type":"PIPELINE","name":"...","signals":{},"events":{},"attributes":{},"confidence":0.0,"details":{},"notes":[]}
+
+Use UNKNOWN as object_type only if the evidence is insufficient to describe cohesive behavior.
+
+If the region has cohesive behavior that cannot reasonably be represented by any core type, do not force the nearest type. Return:
+{"classification":"NEW_OBJECT_CANDIDATE","region_id":"...","candidate_name":"UPPER_SNAKE_CASE","reason":"behavioral reason grounded in the supplied RTL","signals":[],"state":[],"events":{},"inputs":[],"outputs":[],"dependencies":{},"invariants":[],"update_rules":[],"hold_rules":[],"ordering":[],"causality":[],"stability":[],"data_integrity":[],"mutual_exclusion":[],"reset_behavior":[],"assumptions":[],"related_regions":[],"new_property_family_candidates":[],"confidence":0.0,"notes":[]}
+
+Every extension candidate must describe behavior, not merely coin a name. It must cite only supplied signals and RTL evidence. Express reusable invariants with the fixed primitives below whenever possible. Each invariant has:
+{"primitive":"PERSISTENCE","roles":{"START":"req","END":"done"},"semantics":"...","confidence":0.0}
+
+Allowed primitive roles:
+- UPDATE: CONDITION, TARGET, VALUE
+- HOLD: CONDITION, TARGET
+- CAUSALITY: CAUSE, EFFECT, DELAY (0 or 1)
+- ORDERING: FIRST, SECOND, DELAY (0 or 1)
+- STABILITY: CONDITION, SIGNALS (array)
+- DATA_INTEGRITY: CONDITION, SOURCE, TARGET, DELAY (0 or 1)
+- MUTUAL_EXCLUSION: SIGNALS (array)
+- PERSISTENCE: START, END
+- CONSERVATION: CONDITION, BEFORE, AFTER
+- RESET: RESET, TARGET, VALUE
+- PROGRESS: START, END, MAX_DELAY (1..16)
+
+Only propose NEW_PROPERTY_FAMILY_CANDIDATE when none of those primitives can express an evidence-backed invariant. Include applicable scenario, semantic roles, semantics, reuse rationale, RTL evidence, and a parameterized (not design-specific) SVA form. Do not emit executable SVA for ordinary invariants.
+
+Keep extension output compact: include only signals needed to describe the object, at most 6 strongest invariants, and at most 4 concise entries in each rule list. Event values must be signal expressions or objects containing a condition expression and signal list; do not write prose such as "signal rises" in an event value. Dependencies must map a supplied signal to an array of supplied signals, never to prose. Primitive role expressions must be syntactically complete signal expressions; do not use English placeholders such as "next event" or "signals update".
+
+Use semantic signal roles appropriate for the selected type:
+- FSM: signals.state; details.states and details.reset_state when supported.
+- HANDSHAKE: signals.request, signals.response, signals.payload; events.request_active/completed/stalled.
+- REGISTER_UPDATE: signals.register; details.enable/update_expression/reset_value.
+- DATAPATH: signals.result, signals.operands, optionally signals.operation_select; details.expression and details.latency.
+- PIPELINE: signals.inputs, signals.outputs, optionally signals.stall/flush/valid_in/valid_out;
+  details.transfers and details.latency. Preserve structurally supplied transfer pairs.
+- DECODE: signals.selector and signals.outputs; details.case_labels and details.assignments.
+- REQUEST_RESPONSE: signals.request, signals.response, optionally signals.payload; events.issued/completed.
+- RESOURCE: signals.requests, signals.grants or signals.owner; details.capacity/ownership when evidenced.
+
+The deterministic hint is only a candidate, not truth. Explain uncertainty briefly in notes. Expressions may only mention available signals and SystemVerilog operators.
+
+When structural_metadata.candidate_kind is ONTOLOGY_DISCOVERY, classify the behavior of the complete region. Do not choose a core type merely because one assignment in a larger cohesive region resembles that type. If the region coordinates several distinct core objects and that coordination has its own state/events/invariants, preserve the coordination as NEW_OBJECT_CANDIDATE. Conversely, do not manufacture an extension when one core object genuinely explains the complete region.

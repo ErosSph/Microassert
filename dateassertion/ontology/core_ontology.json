@@ -1,0 +1,19 @@
+{
+  "schema": "verification-ontology.v1",
+  "policy": "fixed-core-with-validated-extension",
+  "objects": {
+    "FSM": ["legal_state", "legal_transition", "reset_state", "forbidden_transition", "progress"],
+    "REGISTER_UPDATE": ["update", "hold", "reset", "write_condition", "legal_value"],
+    "DATAPATH": ["data_integrity", "stability", "operation_select"],
+    "PIPELINE": ["stage_transfer", "valid_propagation", "stall_hold", "flush", "payload_integrity"],
+    "DECODE": ["decode_consistency", "mutual_exclusion"],
+    "HANDSHAKE": ["persistence", "stability", "causality", "completion"],
+    "REQUEST_RESPONSE": ["persistence", "causality", "completion", "no_duplicate"],
+    "RESOURCE": ["mutual_exclusion", "accounting", "capacity", "ownership"]
+  },
+  "verification_primitives": [
+    "update", "hold", "causality", "ordering", "stability",
+    "data_integrity", "mutual_exclusion", "persistence",
+    "conservation", "reset", "progress", "control_assert", "control_deassert"
+  ]
+}

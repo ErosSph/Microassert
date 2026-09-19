@@ -1,0 +1,6 @@
+include README.md .env.example constraints-tested.txt
+recursive-include docs *.md
+recursive-include configs *.yaml
+recursive-include examples *.sv *.md
+recursive-include tests *.py *.sv
+recursive-include dateassertion *.txt *.json *.yaml *.tcl

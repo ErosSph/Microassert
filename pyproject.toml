@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dateassertion"
+version = "0.1.0"
+description = "Evidence-linked RTL graph, contract, SVA and formal-feedback research framework"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pyslang>=11,<12", "PyYAML>=6,<7", "networkx>=3.4,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9", "build>=1,<2"]
+audit = ["z3-solver>=4.13,<5"]
+
+[project.scripts]
+dateassertion = "dateassertion.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["dateassertion*"]
+
+[tool.setuptools.package-data]
+dateassertion = ["llm/prompts/*.txt", "ontology/*.json", "generators/templates/*", "formal/*.tcl", "defaults.yaml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
