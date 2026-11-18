@@ -14,24 +14,24 @@ JasperGold → proof/coverage evidence → incremental Region/Contract/compositi
 ```
 
 
-## 1. Environment Setup
+## Environment Setup
 
 ```bash
-cd DATEAssertion2027
+cd Microassert
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -e '.[dev,audit]'
 python -m pytest
-dateassertion --help
+microassert --help
 ```
 
-## 2. Configure LLM
+## Configure LLM
 
 ```bash
 export LLM_BASE_URL='https://your-provider.example/v1'
 export LLM_MODEL='your-enabled-model'
 read -rs -p 'LLM API key: ' LLM_API_KEY; echo
 export LLM_API_KEY
-dateassertion check-llm --config configs/example.yaml
+microassert check-llm --config configs/example.yaml
 ```
