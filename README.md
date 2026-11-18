@@ -1,4 +1,4 @@
-# DATEAssertion2027
+# DAC2027
 
 An evidence-linked research framework for RTL graph matching, local contracts,
 cross-region SVA composition, and formal-feedback-driven refinement.
